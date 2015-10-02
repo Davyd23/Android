@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/to_do_view_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#800080"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/to_do_view_solvedTextView"
+            android:textSize="24dp"
+            android:layout_weight="3" />
+
+        <CheckBox
+            android:id="@+id/to_do_view_solvedCheckBox"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:checked="false"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/remainder_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_do_view_timeOfRemainder"/>
+
+    <EditText
+        android:id="@+id/to_do_view_editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/to_do_view_editText"/>
+
+</LinearLayout>
