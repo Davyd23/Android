@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Movie Recommendation</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="update_list">Update List</string>
+    <string name="menu_item_add">Add Movie</string>
+    <string name="movie_view_title">Cum se numeste filmul?</string>
+    <string name="movie_view_checkBox">Vazut?</string>
+    <string name="movie_view_extraInfo">Ceva important legat de acest film?</string>
+
+    <string name="empty_list">There aren\'t any movies recommendation.</string>
+    <string name="empty_list_addButton">Add a new recommendation</string>
+    <string name="empty_list_updateButton">Update the list</string>
+</resources>
